@@ -1,0 +1,5 @@
+install.packages("plotrix")
+library(plotrix)
+x<- c(1000,200000,3000000,40000000,50000000)
+lbl <- c("Feniton", "Exeter", "London", "Mumbai", "Tokyo")
+pie3D(x,labels = lbl,explode = 0.1, main = "Pie Chart of Countries")
